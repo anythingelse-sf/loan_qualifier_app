@@ -1,11 +1,5 @@
-# -*- coding: utf-8 -*-
-"""Loan to Value Filter.
-
-This script filters the bank list by the applicant's maximum home loan
-to home value ratio.
-
-"""
-
+"""Loan to Value Filter."""
+## This script filters the bank list by the applicant's maximum home loan to home value ratio.
 
 def filter_loan_to_value(loan_to_value_ratio, bank_list):
     """Filters the bank list by the maximum loan to value ratio.

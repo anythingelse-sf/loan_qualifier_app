@@ -1,10 +1,6 @@
 # -*- coding: utf-8 -*-
-"""Debt to Income Filter.
-
-This script filters the bank list by the applicant's
-maximum debt-to-income ratio.
-
-"""
+"""Debt to Income Filter."""
+## This script filters the bank list by the applicant's maximum debt-to-income ratio.
 
 
 def filter_debt_to_income(monthly_debt_ratio, bank_list):

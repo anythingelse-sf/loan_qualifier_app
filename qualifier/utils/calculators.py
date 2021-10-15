@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
-"""A Collection of Financial Calculators.
-
-This script contains a variety of financial calculator functions needed to
-determine loan qualifications.
-
-"""
-
+"""A Collection of Financial Calculators."""
+## This script contains a variety of financial calculator functions needed to determine loan qualifications.
 
 def calculate_monthly_debt_ratio(monthly_debt_payment, monthly_income):
     """Calculates users monthly debt to income ratio.

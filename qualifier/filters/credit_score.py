@@ -1,9 +1,6 @@
-# -*- coding: utf-8 -*-
-"""Credit Score Filter.
 
-This script filters a bank list by the user's minimum credit score.
-
-"""
+"""Credit Score Filter."""
+## This script filters a bank list by the user's minimum credit score.
 
 
 def filter_credit_score(credit_score, bank_list):

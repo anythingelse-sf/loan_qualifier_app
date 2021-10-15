@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
-"""Max Loan Size Filter.
-
-This script filters the bank list by comparing the user's loan value
-against the bank's maximum loan size.
-
-"""
-
+"""Max Loan Size Filter."""
+## This script filters the bank list by comparing the user's loan value
 
 def filter_max_loan_size(loan_amount, bank_list):
     """Filters the bank list by the maximum allowed loan amount.
