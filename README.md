@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Loan Qualifier Application
 
 Business Needs:
@@ -65,3 +66,7 @@ Reach out via Github for more info
 ## Licensing
 No appplicable license necessary. 
 This is an open source software project intended to aid young developers.
+=======
+# loan_qualifier_app
+An application to filter daily bank loan sheets
+>>>>>>> 1e594662c4aa795effa6ee2883af547e73d53e31
