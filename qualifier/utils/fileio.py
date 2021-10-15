@@ -4,12 +4,17 @@
 This contains a helper function for loading and saving CSV files.
 
 """
-import csv
+import sys
+import fire
 import questionary
 from pathlib import Path
+import csv
+import pandas
+
+
+from qualifier.utils.csv_prompts import load_csv    
 
 ##CSV Path for importing spreadsheet data
-
 def load_csv(csvpath):
     """Reads the CSV file from path provided.
 
@@ -33,5 +38,6 @@ def load_csv(csvpath):
     return data
 
     
-  ## CSV Path for exporting spreadsheet data
 
+## CSV Path for exporting spreadsheet data
+def export_csv(output_csv_path):

@@ -16,7 +16,7 @@ Acceptance Critera:
     5) If the user elects to save the file, the file shoud save as a CSV to the filepath provided
 
 ---
-# Code Structure #
+# Systems Design #
 Primary Folder - Holds the primary application file
     a)
 
@@ -52,18 +52,13 @@ Fire
 Ensure that you are running your Python code from the correct directory to access the daily rate sheet. Otherwise you may need to copy and paste the full file path.
 
 ---
-## Usage
+# Usage #
 Step 1: Input the relative path to your CSV file containing the daily rate sheet from banks
 Step 2: Follow the prompts to filter down your search
 Step 3: Export this data or read it straight from the terminal
 Step 4: Happy home hunting!
 
 ---
-## Contributors
-Created by Dylan Nelson.
-Reach out via Github for more info
----
-
-## Licensing
+# Licensing #
 No appplicable license necessary. 
 This is an open source software project intended to aid young developers.

@@ -85,3 +85,35 @@ remote: Resolving deltas: 100% (13/13), done.
 To github.com:anythingelse-sf/loan_qualifier_app.git
    1e59466..323ca99  main -> main
 (base)
+
+"" Capital@LAPTOP-ML07N3G6 MINGW64 ~/OneDrive/Projects/Module_Challenges/2_Module/loan_qualifier_app (main)
+$ git add -A
+warning: CRLF will be replaced by LF in README.md.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in Version_Control.txt.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in primary/application.py.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in qualifier/utils/cli_prompts.
+The file will have its original line endings in your working directory
+(base)
+"" Capital@LAPTOP-ML07N3G6 MINGW64 ~/OneDrive/Projects/Module_Challenges/2_Module/loan_qualifier_app (main)
+$ git commit -m "Version1.3"
+[main 087e246] Version1.3
+ 5 files changed, 180 insertions(+), 207 deletions(-)
+ rewrite primary/application.py (70%)
+ copy primary/application.py => qualifier/utils/cli_prompts (59%)
+ delete mode 100644 qualifier/utils/export_csv
+(base)
+"" Capital@LAPTOP-ML07N3G6 MINGW64 ~/OneDrive/Projects/Module_Challenges/2_Module/loan_qualifier_app (main)
+$ git push origin main
+Enumerating objects: 16, done.
+Counting objects: 100% (16/16), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 2.63 KiB | 2.63 MiB/s, done.
+Total 9 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+To github.com:anythingelse-sf/loan_qualifier_app.git
+   323ca99..087e246  main -> main
+(base)
