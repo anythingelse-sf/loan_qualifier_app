@@ -1,0 +1,87 @@
+"" Capital@LAPTOP-ML07N3G6 MINGW64 ~/OneDrive/Projects/Module_Challenges/2_Module/loan_qualifier_app (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/"" Capital/OneDrive/Projects/Module_Challenges/2_Module/loan_qualifier_app/.git/
+(base)
+"" Capital@LAPTOP-ML07N3G6 MINGW64 ~/OneDrive/Projects/Module_Challenges/2_Module/loan_qualifier_app (main)
+$ ls
+data/  primary/  qualifier/  README.md  Version_Control.txt.txt
+(base)
+"" Capital@LAPTOP-ML07N3G6 MINGW64 ~/OneDrive/Projects/Module_Challenges/2_Module/loan_qualifier_app (main)
+$ git pull origin main
+From github.com:anythingelse-sf/loan_qualifier_app
+ * branch            main       -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+(base)
+"" Capital@LAPTOP-ML07N3G6 MINGW64 ~/OneDrive/Projects/Module_Challenges/2_Module/loan_qualifier_app (main)
+$ explorer .
+(base)
+"" Capital@LAPTOP-ML07N3G6 MINGW64 ~/OneDrive/Projects/Module_Challenges/2_Module/loan_qualifier_app (main)
+$ git add -A
+(base)
+"" Capital@LAPTOP-ML07N3G6 MINGW64 ~/OneDrive/Projects/Module_Challenges/2_Module/loan_qualifier_app (main)
+$ git commit -m "Edits to the README and cleaning modular programming"
+On branch main
+nothing to commit, working tree clean
+(base)
+"" Capital@LAPTOP-ML07N3G6 MINGW64 ~/OneDrive/Projects/Module_Challenges/2_Module/loan_qualifier_app (main)
+$ ls
+data/  primary/  qualifier/  README.md  Version_Control.txt.txt
+(base)
+"" Capital@LAPTOP-ML07N3G6 MINGW64 ~/OneDrive/Projects/Module_Challenges/2_Module/loan_qualifier_app (main)
+$ explorer .
+(base)
+"" Capital@LAPTOP-ML07N3G6 MINGW64 ~/OneDrive/Projects/Module_Challenges/2_Module/loan_qualifier_app (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/"" Capital/OneDrive/Projects/Module_Challenges/2_Module/loan_qualifier_app/.git/
+(base)
+"" Capital@LAPTOP-ML07N3G6 MINGW64 ~/OneDrive/Projects/Module_Challenges/2_Module/loan_qualifier_app (main)
+$ git pull origin main
+From github.com:anythingelse-sf/loan_qualifier_app
+ * branch            main       -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+(base)
+"" Capital@LAPTOP-ML07N3G6 MINGW64 ~/OneDrive/Projects/Module_Challenges/2_Module/loan_qualifier_app (main)
+$ git merge
+fatal: No remote for the current branch.
+(base)
+"" Capital@LAPTOP-ML07N3G6 MINGW64 ~/OneDrive/Projects/Module_Challenges/2_Module/loan_qualifier_app (main)
+$ git merge origin main
+merge: origin - not something we can merge
+(base)
+"" Capital@LAPTOP-ML07N3G6 MINGW64 ~/OneDrive/Projects/Module_Challenges/2_Module/loan_qualifier_app (main)
+$ git merge main
+Already up to date.
+(base)
+"" Capital@LAPTOP-ML07N3G6 MINGW64 ~/OneDrive/Projects/Module_Challenges/2_Module/loan_qualifier_app (main)
+$ git pull origin main
+From github.com:anythingelse-sf/loan_qualifier_app
+ * branch            main       -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+(base)
+"" Capital@LAPTOP-ML07N3G6 MINGW64 ~/OneDrive/Projects/Module_Challenges/2_Module/loan_qualifier_app (main)
+$ git pull origin main --allow-unrelated-histories
+From github.com:anythingelse-sf/loan_qualifier_app
+ * branch            main       -> FETCH_HEAD
+CONFLICT (add/add): Merge conflict in README.md
+Auto-merging README.md
+Automatic merge failed; fix conflicts and then commit the result.
+(base)
+"" Capital@LAPTOP-ML07N3G6 MINGW64 ~/OneDrive/Projects/Module_Challenges/2_Module/loan_qualifier_app (main|MERGING)
+$ git add -A
+(base)
+"" Capital@LAPTOP-ML07N3G6 MINGW64 ~/OneDrive/Projects/Module_Challenges/2_Module/loan_qualifier_app (main|MERGING)
+$ git commit -m "Edited the README"
+[main 323ca99] Edited the README
+(base)
+"" Capital@LAPTOP-ML07N3G6 MINGW64 ~/OneDrive/Projects/Module_Challenges/2_Module/loan_qualifier_app (main)
+$ git push origin main
+Enumerating objects: 43, done.
+Counting objects: 100% (43/43), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (38/38), done.
+Writing objects: 100% (41/41), 11.64 KiB | 2.91 MiB/s, done.
+Total 41 (delta 13), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (13/13), done.
+To github.com:anythingelse-sf/loan_qualifier_app.git
+   1e59466..323ca99  main -> main
+(base)

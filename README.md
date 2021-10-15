@@ -1,9 +1,9 @@
-<<<<<<< HEAD
-# Loan Qualifier Application
+# Loan Qualifier Application #
 
 Business Needs:
-    1) Prompt the user to save qualifying loans as a new CSV file
-    2) Modulate the code to allow for adding new features and enhancements
+    1) Use the CLI to run main application.py
+    2) Prompt the user to save qualifying loans as a new CSV file
+    3) Modulate the code to allow for adding new features and enhancements
 
 User Story:
     1) I need the ability to save the qualifying loans to a CSV file so I can circulate the results as a spreadsheet
@@ -16,7 +16,7 @@ Acceptance Critera:
     5) If the user elects to save the file, the file shoud save as a CSV to the filepath provided
 
 ---
-## Code Structure
+# Code Structure #
 Primary Folder - Holds the primary application file
     a)
 
@@ -28,6 +28,7 @@ Qualifier Folder - Contains all funtions that are imported into the main applica
 
 Utils
     a) Financial Calculator Module
+    b) Command Line Prompts
     b) FileIO
 
 README.md
@@ -40,14 +41,14 @@ Version Control
 - Text file showing command history
 
 
-## Libraries
+# Required Libraries #
 Pathlib -> Path
 Pandas as pd
 Questionary
 Fire
 
 ---
-## Installation Guide
+# Installation Guide #
 Ensure that you are running your Python code from the correct directory to access the daily rate sheet. Otherwise you may need to copy and paste the full file path.
 
 ---
@@ -66,7 +67,3 @@ Reach out via Github for more info
 ## Licensing
 No appplicable license necessary. 
 This is an open source software project intended to aid young developers.
-=======
-# loan_qualifier_app
-An application to filter daily bank loan sheets
->>>>>>> 1e594662c4aa795effa6ee2883af547e73d53e31
