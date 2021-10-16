@@ -12,8 +12,6 @@ import csv
 import pandas
 
 
-from qualifier.utils.csv_prompts import load_csv    
-
 ##CSV Path for importing spreadsheet data
 def load_csv(csvpath):
     """Reads the CSV file from path provided.
@@ -37,7 +35,18 @@ def load_csv(csvpath):
             data.append(row)
     return data
 
-    
 
 ## CSV Path for exporting spreadsheet data
-def export_csv(output_csv_path):
+# def export_csv(filepath):
+#     """Reads the CSV file from path provided.
+
+#     Args:
+#         csvpath (Path): The csv file path.
+
+#     Returns:
+#         A list of lists that contains the rows of data from the CSV file.
+
+#     """
+
+#     return 
+
